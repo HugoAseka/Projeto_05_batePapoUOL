@@ -6,6 +6,7 @@ const numCartas = prompt("Quantas Cartas?");
 while ( numCartas%2 !== 0 || numCartas < 2 || numCartas > 14 ){
     numCartas = prompt ("Número inválido. Insira num par entre 2 e 14.")
 }
+const cartasEscolhidas = [];
 let i = 0;
 let retirar =  6 - numCartas/2;
 while ( i <= retirar){
